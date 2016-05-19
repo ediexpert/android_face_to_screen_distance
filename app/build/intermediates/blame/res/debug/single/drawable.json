@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_button.xml",
+        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\drawable\\green_button.xml"
+    },
+    {
+        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button.xml",
+        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\drawable\\red_button.xml"
+    },
+    {
+        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yellow_button.xml",
+        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\drawable\\yellow_button.xml"
+    }
+]
