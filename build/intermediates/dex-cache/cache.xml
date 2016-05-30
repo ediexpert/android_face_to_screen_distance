@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="7882d18ea3aec6794f24405a8765115d2823ccba">
+        <dex dex="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\intermediates\pre-dexed\debug\instant-run_61581da5476074bcb9e1547188cafbce11838f37.jar" />
+    </item>
+    <item
+        jar="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d549532b6d5221bf44f65e7e692784c4cef0287f">
+        <dex dex="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_3148805a10142002151c36ef68bb2acf809bf242.jar" />
+    </item>
+
+</items>

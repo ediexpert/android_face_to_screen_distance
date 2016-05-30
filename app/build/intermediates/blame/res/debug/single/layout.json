@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
-        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\layout\\activity_main_page.xml"
+        "merged": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\layout\\measurement_activity.xml",
+        "source": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\layout\\measurement_activity.xml"
     },
     {
-        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\layout\\measurement_activity.xml",
-        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\layout\\measurement_activity.xml"
+        "merged": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_page.xml",
+        "source": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\layout\\activity_main_page.xml"
     }
 ]

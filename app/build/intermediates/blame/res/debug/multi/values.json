@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,14 @@
                     "endOffset": 90
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1641,
+                        "endColumn": 39,
+                        "endOffset": 1676
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 128
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 4,
+                        "startOffset": 1602,
+                        "endColumn": 37,
+                        "endOffset": 1635
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 168
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1561,
+                        "endColumn": 39,
+                        "endOffset": 1596
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 209
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 4,
+                        "startOffset": 1682,
+                        "endColumn": 40,
+                        "endOffset": 1718
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 267
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 323
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 389
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1176,
+                        "endColumn": 65,
+                        "endOffset": 1237
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 458
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1243,
+                        "endColumn": 68,
+                        "endOffset": 1307
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 518
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1115,
+                        "endColumn": 59,
+                        "endOffset": 1170
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 572
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1060,
+                        "endColumn": 53,
+                        "endOffset": 1109
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 635
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1313,
+                        "endColumn": 62,
+                        "endOffset": 1371
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 52,
+                        "endOffset": 208
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 749
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 60,
+                        "endOffset": 154
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 814
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 359,
+                        "endColumn": 64,
+                        "endOffset": 419
+                    }
                 }
             },
             {
@@ -179,7 +277,14 @@
                     "endOffset": 863
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 48,
+                        "endOffset": 312
+                    }
                 }
             },
             {
@@ -191,7 +296,14 @@
                     "endOffset": 914
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 751,
+                        "endColumn": 50,
+                        "endOffset": 797
+                    }
                 }
             },
             {
@@ -203,7 +315,14 @@
                     "endOffset": 958
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 584,
+                        "endColumn": 43,
+                        "endOffset": 623
+                    }
                 }
             },
             {
@@ -215,7 +334,14 @@
                     "endOffset": 1019
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 60,
+                        "endOffset": 685
+                    }
                 }
             },
             {
@@ -227,7 +353,14 @@
                     "endOffset": 1069
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 533,
+                        "endColumn": 49,
+                        "endOffset": 578
+                    }
                 }
             },
             {
@@ -239,7 +372,14 @@
                     "endOffset": 1122
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 479,
+                        "endColumn": 52,
+                        "endOffset": 527
+                    }
                 }
             },
             {
@@ -251,7 +391,14 @@
                     "endOffset": 1168
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 45,
+                        "endOffset": 1418
+                    }
                 }
             },
             {
@@ -263,7 +410,14 @@
                     "endOffset": 1216
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 867,
+                        "endColumn": 47,
+                        "endOffset": 910
+                    }
                 }
             },
             {
@@ -275,7 +429,14 @@
                     "endOffset": 1269
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 214,
+                        "endColumn": 52,
+                        "endOffset": 262
+                    }
                 }
             },
             {
@@ -287,7 +448,14 @@
                     "endOffset": 1328
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 58,
+                        "endOffset": 745
+                    }
                 }
             },
             {
@@ -299,7 +467,14 @@
                     "endOffset": 1391
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 803,
+                        "endColumn": 62,
+                        "endOffset": 861
+                    }
                 }
             },
             {
@@ -311,7 +486,14 @@
                     "endOffset": 1444
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 425,
+                        "endColumn": 52,
+                        "endOffset": 473
+                    }
                 }
             },
             {
@@ -323,7 +505,14 @@
                     "endOffset": 1519
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1461,
+                        "endColumn": 74,
+                        "endOffset": 1531
+                    }
                 }
             },
             {
@@ -335,7 +524,14 @@
                     "endOffset": 1559
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 318,
+                        "endColumn": 39,
+                        "endOffset": 353
+                    }
                 }
             },
             {
@@ -347,7 +543,14 @@
                     "endOffset": 1612
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 52,
+                        "endOffset": 1026
+                    }
                 }
             },
             {
@@ -359,7 +562,14 @@
                     "endOffset": 1673
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 916,
+                        "endColumn": 60,
+                        "endOffset": 972
+                    }
                 }
             },
             {
@@ -371,13 +581,13 @@
                     "endOffset": 1743
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
-                        "startOffset": 1686,
+                        "startOffset": 1724,
                         "endColumn": 69,
-                        "endOffset": 1751
+                        "endOffset": 1789
                     }
                 }
             },
@@ -391,7 +601,15 @@
                     "endOffset": 2034
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 192,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 484
+                    }
                 }
             },
             {
@@ -404,7 +622,15 @@
                     "endOffset": 2194
                 },
                 "from": {
-                    "file": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 525,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 682
+                    }
                 }
             }
         ]

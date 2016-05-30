@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\Projects\ScreenToFaceDistance\app\src\main\assets"/><source path="E:\Projects\ScreenToFaceDistance\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\Projects\ScreenToFaceDistance\app\src\debug\assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\assets"/><source path="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\debug\assets"/></dataSet></merger>

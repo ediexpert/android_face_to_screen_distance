@@ -34,6 +34,7 @@ public class MainActivity extends Activity implements MessageListener {
 	public static final String CAM_SIZE_HEIGHT = "intent_cam_size_height";
 	public static final String AVG_NUM = "intent_avg_num";
 	public static final String PROBANT_NAME = "intent_probant_name";
+	private Float screen_to_face_dist = 5.0F;
 
 	private CameraSurfaceView _mySurfaceView;
 	Camera _cam;
@@ -55,6 +56,13 @@ public class MainActivity extends Activity implements MessageListener {
 	 */
 	// ComponentName _headSetButtonReceiver;
 	// AudioManager _audioManager;
+
+
+	@Override
+	public void onBackPressed() {
+//		super.onBackPressed();
+	}
+
 
 	public void startService(View view){
 		Intent intetn = new Intent(this, MyService.class);
@@ -186,7 +194,7 @@ public class MainActivity extends Activity implements MessageListener {
 		float x = message.getDistToFace();
 
 		float fontRatio = message.getDistToFace() / 29.7f;
-		if(message.getDistToFace() < 10){
+		if(message.getDistToFace() < screen_to_face_dist){
 
 			Toast.makeText(this, "You are too close to your phone",Toast.LENGTH_LONG).show();
 		}

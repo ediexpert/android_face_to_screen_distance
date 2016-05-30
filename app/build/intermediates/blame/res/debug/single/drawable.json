@@ -1,14 +1,14 @@
 [
     {
-        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_button.xml",
-        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\drawable\\green_button.xml"
+        "merged": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yellow_button.xml",
+        "source": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\yellow_button.xml"
     },
     {
-        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button.xml",
-        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\drawable\\red_button.xml"
+        "merged": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button.xml",
+        "source": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\red_button.xml"
     },
     {
-        "merged": "E:\\Projects\\ScreenToFaceDistance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yellow_button.xml",
-        "source": "E:\\Projects\\ScreenToFaceDistance\\app\\src\\main\\res\\drawable\\yellow_button.xml"
+        "merged": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_button.xml",
+        "source": "D:\\Projects\\facetoscreen\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\green_button.xml"
     }
 ]
