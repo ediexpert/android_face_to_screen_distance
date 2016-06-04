@@ -13,9 +13,10 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -34,13 +35,14 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".MyService"
-            android:exported="false"></service>
-
         <activity
             android:name=".MainPageActivity"
-            android:label="@string/title_activity_main_page"></activity>
+            android:label="@string/title_activity_main_page">
+            <intent-filter>
+                <action android:name="com.tec.fontsize.MainPageActivity" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

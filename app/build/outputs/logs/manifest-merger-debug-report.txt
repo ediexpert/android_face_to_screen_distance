@@ -1,93 +1,101 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:2:1-48:12
 	xmlns:android
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:2:11-69
 	package
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:3:5-31
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
 uses-sdk
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:7:5-9:41
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
-		INJECTED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml
 uses-feature#android.hardware.camera
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:11:5-60
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:11:5-60
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:11:19-57
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:11:19-57
 uses-permission#android.permission.CAMERA
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:13:5-65
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:13:22-62
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:13:22-62
 uses-permission#android.hardware.camera.autofocus
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:14:5-73
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:14:5-73
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:14:22-70
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:14:22-70
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:15:5-81
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:15:22-78
-android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:17:5-83
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:16:5-66
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:17:30-80
-android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:18:5-88
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:16:22-63
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:18:5-75
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:18:30-85
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:18:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:19:22-77
 application
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:20:5-44:19
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:21:5-46:19
 	android:label
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:24:9-41
 	android:allowBackup
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:22:9-35
 	android:icon
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:22:9-45
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:23:9-45
 	android:theme
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:24:9-40
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:25:9-40
 activity#com.tec.fontsize.MainActivity
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:25:9-35:20
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:26:9-36:20
 	android:screenOrientation
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:30:13-49
 	android:label
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:28:13-45
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:29:13-45
 	android:configChanges
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:27:13-48
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:28:13-48
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:26:13-41
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:27:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:33:27-74
-service#com.tec.fontsize.MyService
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:37:9-39:48
-	android:exported
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:39:13-37
-	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:38:13-38
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:34:27-74
 activity#com.tec.fontsize.MainPageActivity
-ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:41:9-43:73
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:38:9-45:20
 	android:label
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:43:13-61
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:40:13-61
 	android:name
-		ADDED from D:\Projects\facetoscreen\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:42:13-45
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:39:13-45
+intent-filter#android.intent.category.DEFAULT+com.tec.fontsize.MainPageActivity
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:41:13-44:29
+action#com.tec.fontsize.MainPageActivity
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:42:25-73
+category#android.intent.category.DEFAULT
+ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:43:17-75
+	android:name
+		ADDED from D:\Projects\android_face_to_screen_distance\app\src\main\AndroidManifest.xml:43:27-73

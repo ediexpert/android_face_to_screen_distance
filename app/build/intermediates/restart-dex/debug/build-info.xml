@@ -4,28 +4,28 @@
     api-level="19"
     density="xhdpi"
     format="7"
-    timestamp="4907686718210" >
+    timestamp="3507879125084" >
 
     <task
         name="javac"
-        duration="1261" />
+        duration="749" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="2649" />
+        duration="355" />
     <task
         name="verifier"
-        duration="188" />
+        duration="44" />
 
     <artifact
-        location="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\outputs\apk\app-debug.apk"
+        location="D:\Projects\android_face_to_screen_distance\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="4907686718210" >
+    <build timestamp="3507879125084" >
         <artifact
-            location="D:\Projects\facetoscreen\android_face_to_screen_distance\app\build\outputs\apk\app-debug.apk"
+            location="D:\Projects\android_face_to_screen_distance\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
     </build>
 

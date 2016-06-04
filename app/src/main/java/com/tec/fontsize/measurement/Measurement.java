@@ -1,5 +1,11 @@
 package com.tec.fontsize.measurement;
 
+import android.content.Intent;
+import android.view.View;
+import android.widget.Button;
+
+import com.tec.fontsize.R;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -132,5 +138,7 @@ public class Measurement {
 	public void setCalibrationDistance(final float calibrationDistance) {
 		_calibrationDistance = calibrationDistance;
 	}
+
+
 
 }

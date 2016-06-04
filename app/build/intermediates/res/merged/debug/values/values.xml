@@ -2,7 +2,7 @@
 <resources>
     <color name="green">#00FF00</color>
     <color name="red">#FF0000</color>
-    <color name="white">#FFFFFF</color>
+    <color name="white">#ffffff</color>
     <color name="yellow">#FFFF00</color>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

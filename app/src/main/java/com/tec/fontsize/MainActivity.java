@@ -12,6 +12,8 @@ import android.hardware.Camera;
 import android.hardware.Camera.Size;
 import android.os.Bundle;
 import android.os.PowerManager;
+import android.os.Vibrator;
+import android.util.FloatMath;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.View;
@@ -34,11 +36,13 @@ public class MainActivity extends Activity implements MessageListener {
 	public static final String CAM_SIZE_HEIGHT = "intent_cam_size_height";
 	public static final String AVG_NUM = "intent_avg_num";
 	public static final String PROBANT_NAME = "intent_probant_name";
-	private Float screen_to_face_dist = 5.0F;
+	private Float screen_to_face_dist = 20.0F;
 
 	private CameraSurfaceView _mySurfaceView;
 	Camera _cam;
-
+	public void setDistance(int num){
+		screen_to_face_dist = Float.intBitsToFloat(num);
+	}
 	private final static DecimalFormat _decimalFormater = new DecimalFormat(
 			"0.0");
 
@@ -51,6 +55,7 @@ public class MainActivity extends Activity implements MessageListener {
 	TextView _currentDistanceView;
 	Button _calibrateButton;
 	SurfaceHolder surfaceHolder;
+	Button _button;
 	/**
 	 * Abusing the media controls to create a remote control
 	 */
@@ -64,15 +69,7 @@ public class MainActivity extends Activity implements MessageListener {
 	}
 
 
-	public void startService(View view){
-		Intent intetn = new Intent(this, MyService.class);
-		startService(intetn);
-	}
 
-	public void stopService(View view){
-		Intent intetn = new Intent(this, MyService.class);
-		stopService(intetn);
-	}
 
 	@Override
 	public void onCreate(final Bundle savedInstanceState) {
@@ -85,18 +82,30 @@ public class MainActivity extends Activity implements MessageListener {
 				(int) (0.95 * this.getResources().getDisplayMetrics().widthPixels),
 				(int) (0.6 * this.getResources().getDisplayMetrics().heightPixels));
 
-		layout.setMargins(0, (int) (0.05 * this.getResources()
-				.getDisplayMetrics().heightPixels), 0, 0);
+		layout.setMargins(0, (int) (0.05 * this.getResources().getDisplayMetrics().heightPixels), 0, 0);
 
 		_mySurfaceView.setLayoutParams(layout);
 		_currentDistanceView = (TextView) findViewById(R.id.currentDistance);
 		_calibrateButton = (Button) findViewById(R.id.calibrateButton);
-
+		onClickActionListner();
 
 		// _audioManager = (AudioManager) this
 		// .getSystemService(Context.AUDIO_SERVICE);
 	}
-
+	// send to setting activity
+	public void onClickActionListner(){
+		Log.d("ButtonClick","you clcked");
+		Toast.makeText(this,"clicked",Toast.LENGTH_SHORT).show();
+		Button btn;
+		btn = (Button)findViewById(R.id.button);
+		btn.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent("com.tec.fontsize.MainPageActivity");
+				startActivity(intent);
+			}
+		});
+	}
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -188,15 +197,17 @@ public class MainActivity extends Activity implements MessageListener {
 
 
 	public void updateUI(final MeasurementStepMessage message) {
-
+		String x= _decimalFormater.format(message.getDistToFace());
+		Float tempF= Float.parseFloat(x);
 		_currentDistanceView.setText(_decimalFormater.format(message
 				.getDistToFace()) + " cm");
-		float x = message.getDistToFace();
 
 		float fontRatio = message.getDistToFace() / 29.7f;
-		if(message.getDistToFace() < screen_to_face_dist){
+		if((tempF > 10.0f)&&(tempF <= screen_to_face_dist)){
+			Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+			vibrator.vibrate(1000);
+			Toast.makeText(this, "Your Distance is "+tempF,Toast.LENGTH_SHORT).show();
 
-			Toast.makeText(this, "You are too close to your phone",Toast.LENGTH_LONG).show();
 		}
 		_currentDistanceView.setTextSize(fontRatio * 20);
 
@@ -239,7 +250,8 @@ public class MainActivity extends Activity implements MessageListener {
 
 		final List<Size> listSize = p.getSupportedPreviewSizes();
 		Size mPreviewSize = listSize.get(2);
-		p.setPreviewSize(mPreviewSize.width, mPreviewSize.height);
+//		p.setPreviewSize(mPreviewSize.width, mPreviewSize.height);
+		p.setPreviewSize(100,100);
 		p.setPreviewFormat(PixelFormat.YCbCr_420_SP);
 		_cam.setParameters(p);
 
@@ -259,6 +271,9 @@ public class MainActivity extends Activity implements MessageListener {
 		return true;
 
 	}
+
+
+
 
 //	public void stopMediaRecorder() {
 //		mServiceCamera.reconnect();
