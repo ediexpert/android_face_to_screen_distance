@@ -1,5 +1,6 @@
 package com.tec.fontsize;
 
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
@@ -8,10 +9,11 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainPageActivity extends Activity {
-    private int distValue;
-    private static Button saveButton;
+import com.tec.fontsize.utils.MyService;
 
+public class MainPageActivity extends Activity {
+    int distValue;
+    private static Button saveButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +32,14 @@ public class MainPageActivity extends Activity {
 //                msg = String.valueOf(progress);
                 seekBarValue.setText(String.valueOf(progress)+" cm");
                 distValue = progress;
+//                MyService ms = new MyService();
+//                ms.protectedDistance = progress;
+
+
+                SharedPreferences mPrefs = getSharedPreferences("label", 0);
+
+                SharedPreferences.Editor medit = mPrefs.edit();
+                medit.putFloat("dist",distValue).commit();
 
 
             }
@@ -53,8 +63,14 @@ public class MainPageActivity extends Activity {
         saveButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity mainActivity= new MainActivity();
-                mainActivity.setDistance(distValue);
+//                MainActivity mainActivity= new MainActivity();
+//                mainActivity.setDistance(distValue);
+                SharedPreferences mPrefs = getSharedPreferences("label", 0);
+
+                SharedPreferences.Editor medit = mPrefs.edit();
+                medit.putFloat("dist",distValue).commit();
+//                MyService myService = new MyService();
+//                myService.setProtectedDistance(distValue);
                 Toast.makeText(getApplicationContext(), "Distance set to "+ distValue+ " cm", Toast.LENGTH_SHORT).show();
             }
         });

@@ -50,7 +50,8 @@
         android:orientation="vertical"
         android:layout_below="@+id/surface_camera"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
 
    	<Switch
         android:id="@+id/switch1"
@@ -73,12 +74,20 @@
     </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:id="@+id/button"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:height="25dp"
-        android:text="Click me" />
+        android:background="@drawable/gear" />
+
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/currentDistance"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/eyeprotectlogo" />
 
 </RelativeLayout>

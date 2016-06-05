@@ -2,9 +2,5 @@
     {
         "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
         "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.png",
-        "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable-mdpi\\logo.png"
     }
 ]

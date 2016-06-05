@@ -5,8 +5,11 @@ import java.text.DecimalFormat;
 import java.util.List;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
 import android.hardware.Camera;
 import android.hardware.Camera.Size;
@@ -26,6 +29,7 @@ import android.widget.Toast;
 import com.tec.fontsize.messages.MeasurementStepMessage;
 import com.tec.fontsize.messages.MessageHUB;
 import com.tec.fontsize.messages.MessageListener;
+import com.tec.fontsize.utils.MyService;
 
 public class MainActivity extends Activity implements MessageListener {
 
@@ -36,13 +40,11 @@ public class MainActivity extends Activity implements MessageListener {
 	public static final String CAM_SIZE_HEIGHT = "intent_cam_size_height";
 	public static final String AVG_NUM = "intent_avg_num";
 	public static final String PROBANT_NAME = "intent_probant_name";
-	private Float screen_to_face_dist = 20.0F;
+	private float screen_to_face_dist;
 
 	private CameraSurfaceView _mySurfaceView;
 	Camera _cam;
-	public void setDistance(int num){
-		screen_to_face_dist = Float.intBitsToFloat(num);
-	}
+
 	private final static DecimalFormat _decimalFormater = new DecimalFormat(
 			"0.0");
 
@@ -56,6 +58,7 @@ public class MainActivity extends Activity implements MessageListener {
 	Button _calibrateButton;
 	SurfaceHolder surfaceHolder;
 	Button _button;
+	TextView _checkDistance;
 	/**
 	 * Abusing the media controls to create a remote control
 	 */
@@ -65,7 +68,7 @@ public class MainActivity extends Activity implements MessageListener {
 
 	@Override
 	public void onBackPressed() {
-//		super.onBackPressed();
+		super.onBackPressed();
 	}
 
 
@@ -75,7 +78,6 @@ public class MainActivity extends Activity implements MessageListener {
 	public void onCreate(final Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.measurement_activity);
-
 		_mySurfaceView = (CameraSurfaceView) findViewById(R.id.surface_camera);
 
 		RelativeLayout.LayoutParams layout = new RelativeLayout.LayoutParams(
@@ -86,13 +88,38 @@ public class MainActivity extends Activity implements MessageListener {
 
 		_mySurfaceView.setLayoutParams(layout);
 		_currentDistanceView = (TextView) findViewById(R.id.currentDistance);
+		_checkDistance = (TextView) findViewById(R.id.textView2);
+
 		_calibrateButton = (Button) findViewById(R.id.calibrateButton);
+
 		onClickActionListner();
+
+
+			Intent intetn = new Intent(this, MyService.class);
+			startService(intetn);
+
+
+		SharedPreferences mPrefs = getSharedPreferences("label",0);
+//		String mstr = sp.getString("tag","20");
+		SharedPreferences.Editor medit = mPrefs.edit();
+		medit.putFloat("dist",20.0f).commit();
+		_checkDistance.setText(Float.toString(mPrefs.getFloat("dist",26.0f)));
+//		Float fl = mPrefs.getFloat("dist",25.0f);
 
 		// _audioManager = (AudioManager) this
 		// .getSystemService(Context.AUDIO_SERVICE);
 	}
 	// send to setting activity
+
+	public void setDistance(int dist){
+		screen_to_face_dist = (float)dist;
+	}
+	public void setCheckDistance(int n ){
+		_checkDistance.setText(Integer.toString(n));
+	}
+	public float getDistance(){
+		return screen_to_face_dist;
+	}
 	public void onClickActionListner(){
 		Log.d("ButtonClick","you clcked");
 		Toast.makeText(this,"clicked",Toast.LENGTH_SHORT).show();
@@ -109,7 +136,8 @@ public class MainActivity extends Activity implements MessageListener {
 	@Override
 	protected void onResume() {
 		super.onResume();
-
+		SharedPreferences mPrefs = getSharedPreferences("label",0);
+		_checkDistance.setText(Float.toString(mPrefs.getFloat("dist",27.0f)));
 		MessageHUB.get().registerListener(this);
 		// _audioManager.registerMediaButtonEventReceiver(_headSetButtonReceiver);
 
@@ -146,6 +174,9 @@ public class MainActivity extends Activity implements MessageListener {
 		_cam.setParameters(param);
 
 		_mySurfaceView.setCamera(_cam);
+
+
+//		registerReceiver(onBroadcast, new IntentFilter("mymessage"));
 	}
 
 	@Override
@@ -158,6 +189,8 @@ public class MainActivity extends Activity implements MessageListener {
 		// .unregisterMediaButtonEventReceiver(_headSetButtonReceiver);
 
 		resetCam();
+//		unregisterReceiver(onBroadcast);
+
 	}
 
 	/**
@@ -197,13 +230,19 @@ public class MainActivity extends Activity implements MessageListener {
 
 
 	public void updateUI(final MeasurementStepMessage message) {
+		MyService myService = new MyService();
+
 		String x= _decimalFormater.format(message.getDistToFace());
 		Float tempF= Float.parseFloat(x);
 		_currentDistanceView.setText(_decimalFormater.format(message
 				.getDistToFace()) + " cm");
+		SharedPreferences mPrefs = getSharedPreferences("label",0);
+
+		_checkDistance.setText(Float.toString(mPrefs.getFloat("dist",28.0f)));
 
 		float fontRatio = message.getDistToFace() / 29.7f;
-		if((tempF > 10.0f)&&(tempF <= screen_to_face_dist)){
+		screen_to_face_dist = myService.getMinDistanceToCheck();
+		if((tempF > 10.0f)&&(tempF <= mPrefs.getFloat("dist",29.0f))){
 			Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
 			vibrator.vibrate(1000);
 			Toast.makeText(this, "Your Distance is "+tempF,Toast.LENGTH_SHORT).show();
@@ -287,4 +326,17 @@ public class MainActivity extends Activity implements MessageListener {
 //		mServiceCamera.release();
 //		mServiceCamera = null;
 //	}
+
+
+
+
+//	private BroadcastReceiver onBroadcast = new BroadcastReceiver() {
+//		@Override
+//		public void onReceive(Context ctxt, Intent i) {
+//			Toast.makeText(ctxt,"skasnsa",Toast.LENGTH_SHORT).show();
+//		}
+//	};
+
+
+
 }

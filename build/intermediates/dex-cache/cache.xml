@@ -5,14 +5,14 @@
         jar="D:\Projects\android_face_to_screen_distance\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="6bc955d478f5a7954f373883f4d1f745e1f2c562">
+        sha1="8bef459df5ac8537dd11774c0aedc21fb688bd06">
         <dex dex="D:\Projects\android_face_to_screen_distance\app\build\intermediates\pre-dexed\debug\instant-run_7259758b9aa0750e5825c4bb10893aa60befd244.jar" />
     </item>
     <item
         jar="D:\Projects\android_face_to_screen_distance\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="67195e50803116179774351a8c95bec3d0141a7b">
+        sha1="e1c9ca8d74ba61955ab6fe9ab6b0dd997b4a5e6e">
         <dex dex="D:\Projects\android_face_to_screen_distance\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_a24ccaa982f648dfc71dc3b38dfd71a823c8a3dd.jar" />
     </item>
 

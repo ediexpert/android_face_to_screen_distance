@@ -8,6 +8,14 @@
         "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\yellow_button.xml"
     },
     {
+        "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gear.png",
+        "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\gear.png"
+    },
+    {
+        "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\eyeprotectlogo.jpg",
+        "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\eyeprotectlogo.jpg"
+    },
+    {
         "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_button.xml",
         "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\drawable\\red_button.xml"
     }

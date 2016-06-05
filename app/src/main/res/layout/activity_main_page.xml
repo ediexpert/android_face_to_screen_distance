@@ -15,7 +15,7 @@
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logo" />
+        android:src="@drawable/eyeprotectlogo" />
 
     <SeekBar
         android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentLeft="true"
-        android:max="50"
+        android:max="30"
         android:progress="20" />
 
     <Button
@@ -40,8 +40,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Large Text"
+        android:text="25 cm"
         android:id="@+id/textView"
         android:layout_above="@+id/seekBar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eye Protect"
+        android:id="@+id/textView3"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:autoText="false"
+        android:layout_above="@+id/textView"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
