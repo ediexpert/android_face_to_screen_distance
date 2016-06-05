@@ -5,6 +5,8 @@ import java.text.DecimalFormat;
 import java.util.List;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -18,8 +20,11 @@ import android.os.PowerManager;
 import android.os.Vibrator;
 import android.util.FloatMath;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.SurfaceHolder;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.RelativeLayout;
 import android.widget.Switch;
@@ -59,6 +64,7 @@ public class MainActivity extends Activity implements MessageListener {
 	SurfaceHolder surfaceHolder;
 	Button _button;
 	TextView _checkDistance;
+	private  int count=0;
 	/**
 	 * Abusing the media controls to create a remote control
 	 */
@@ -243,9 +249,56 @@ public class MainActivity extends Activity implements MessageListener {
 		float fontRatio = message.getDistToFace() / 29.7f;
 		screen_to_face_dist = myService.getMinDistanceToCheck();
 		if((tempF > 10.0f)&&(tempF <= mPrefs.getFloat("dist",29.0f))){
-			Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
-			vibrator.vibrate(1000);
-			Toast.makeText(this, "Your Distance is "+tempF,Toast.LENGTH_SHORT).show();
+			count++;
+			if(count > 5){
+				LayoutInflater layoutInflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
+				View view = layoutInflater.inflate(R.layout.activity_black, null);
+				WindowManager windowManager = (WindowManager) getSystemService(WINDOW_SERVICE);
+				WindowManager.LayoutParams params = new WindowManager.LayoutParams(
+						WindowManager.LayoutParams.FILL_PARENT, 1200,
+						WindowManager.LayoutParams.TYPE_SYSTEM_ALERT,
+						WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE
+								| WindowManager.LayoutParams.FLAG_NOT_TOUCH_MODAL, PixelFormat.TRANSLUCENT);
+
+				params.gravity = Gravity.CENTER;
+				windowManager.addView(view, params);
+
+				// END shut off the screen #######6
+
+				// <!--######START create vibration
+				Vibrator vibrator;
+				vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+				vibrator.vibrate(1000);
+				// END create vibration ######--!>
+
+
+
+			}else{
+//				Vibrator vibrator = (Vibrator)getSystemService(Context.VIBRATOR_SERVICE);
+//				vibrator.vibrate(1000);
+//				Toast.makeText(this, "Your Distance is "+tempF,Toast.LENGTH_SHORT).show();
+
+
+				// #####START create full screen dialog
+				Dialog dialog = new Dialog(this, android.R.style.Theme_Black_NoTitleBar_Fullscreen);
+				dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+				AlertDialog alertDialog = new AlertDialog.Builder(this)
+						.setTitle("Eye Protection System")
+						.setMessage("You are too close to screen")
+						.create();
+				alertDialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
+				alertDialog.show();
+
+
+				//END full screen dialog#####
+				// <!--######START create vibration
+				Vibrator vibrator;
+				vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+				vibrator.vibrate(1000);
+				// END create vibration ######--!>
+
+			}
+
 
 		}
 		_currentDistanceView.setTextSize(fontRatio * 20);

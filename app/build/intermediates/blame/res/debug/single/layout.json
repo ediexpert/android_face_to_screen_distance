@@ -4,6 +4,10 @@
         "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\layout\\activity_main_page.xml"
     },
     {
+        "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_black.xml",
+        "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\layout\\activity_black.xml"
+    },
+    {
         "merged": "D:\\Projects\\android_face_to_screen_distance\\app\\build\\intermediates\\res\\merged\\debug\\layout\\measurement_activity.xml",
         "source": "D:\\Projects\\android_face_to_screen_distance\\app\\src\\main\\res\\layout\\measurement_activity.xml"
     }
